@@ -1,0 +1,31 @@
+section.repository-list {
+    margin: 2rem;
+    
+    ul {
+        list-style: none;
+
+        li {
+            margin-top: 2rem;
+
+            & + li {
+                margin-top: 3rem;
+            }
+
+            strong {
+                display: inline-block;
+                margin-bottom: .5rem;
+            }
+
+            p {
+                color: #02ec;
+            }
+
+            a {
+                color: #d0ef;
+                text-decoration: none;
+                display: inline-block;
+                margin-top: .5rem;
+            }
+        }
+    }
+}
